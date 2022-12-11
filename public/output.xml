@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='output.xslt'?>
+<hash>
+  <before-processing type="array">
+    <before-processing type="integer">1</before-processing>
+    <before-processing type="integer">2</before-processing>
+    <before-processing type="integer">3</before-processing>
+    <before-processing type="integer">4</before-processing>
+    <before-processing type="integer">5</before-processing>
+  </before-processing>
+  <length type="integer">5</length>
+  <after type="array">
+    <after type="array">
+      <after type="integer">1</after>
+    </after>
+    <after type="array">
+      <after type="integer">5</after>
+    </after>
+  </after>
+  <largest-segment type="array">
+    <largest-segment type="integer">1</largest-segment>
+  </largest-segment>
+</hash>
