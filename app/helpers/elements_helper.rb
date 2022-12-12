@@ -2,7 +2,7 @@
 
 # helper
 module ElementsHelper
-  URL_SERV = 'http://localhost:3000/?format=xml'
+  URL_SERV = 'http://127.0.0.1:3000/serv/result.xml'
   XSLT_PATH = 'public/output.xslt'
 
   def check_data
@@ -31,6 +31,6 @@ module ElementsHelper
 
   def xml_transform
     xslt = Nokogiri::XSLT(File.read(XSLT_PATH))
-    xslt.transform(Nokogiri::XML(@resp_xml))
+    xslt.transform(@resp_xml)
   end
 end
